@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="main-header">
+      <div class="content">	
+    	<nav class="menu">
+    		<a>
+    			<img src="img/Logo.png" alt="Барбершоп">
+    		</a>
+    		<ul>
+    			<li>
+    				<a href="#">Информация</a>
+    			</li>
+    			<li>
+    				<a href="#">Новости</a>
+    			</li>
+    			<li>
+    				<a href="#">Прайс-лист</a>
+    			</li>
+    			<li>
+    				<a href="#">Магазин</a>
+    			</li>
+    			<li>
+    				<a href="#">Контакты</a>
+    			</li>
+    		</ul>
+    	</nav>
+      </div>
+      <div class="user-block">
+      	<a class="login" href="#">Вход</a>
+      </div>
+    </header>
+    <main class="content">
+    	<div class="logo-general">
+    		<img src="img/BORODINSKI_Logo.png" width="367,94" height="204,09" alt="Барбершоп «Бородинский»">
+    	</div>
+    	<section class="feature">
+    		<div class="feature-item">
+    			<b class="feature-name">БЫСТРО</b>
+    			<p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+    		</div>
+    		<div class="feature-item">
+    			<b class="feature-name">КРУТО</b>
+    			<p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+				МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!</p>
+    		</div>
+    		<div class="feature-item">
+    			<b class="feature-name">ДОРОГО</b>
+    			<p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+    		</div>
+    	</section>
+
+
+    	<div class="index-content">
+    		<div class="index-content-left">
+    			<h2 class="index-content-title">Новости</h2>
+    			<ul class="news">
+    				<li>
+    					<p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+    					<time datetime="2016-01-11">11 января</time>
+    				</li>
+    				<li>
+    					<p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+    					<time datetime="2016-01-18">18 января</time>
+    				</li>
+    			</ul>
+    				<a class="btn" href="#">Все новости</a>
+    		</div>
+    		<div class="index-content-right">
+    			<h2 class="index-content-title">Фотогалерея</h2>
+					<div class="gallery">
+    					<figure class="gallery-content">
+    						<img src="img/gallery.png" width="286" height="164" alt="">
+    					</figure>
+    						<button class="btn btn-prev" type="button">Назад</button>
+    						<button class="btn btn-prev" type="button">Вперед</button>
+    				</div>
+    		</div>
+    	</div>
+
+			
+		<div class="index-content">
+			<div class="index-content-left">
+				<h2 class="index-content-title">Контактная информация</h2>
+				<p>БАРБЕРШОП «БОРОДИНСКИЙ» </br>
+				АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 </br>
+				ТЕЛЕФОН: +7 (495) 666-02-66</p>
+				<p>ВРЕМЯ РАБОТЫ: </br>
+				ПН — ПТ: С 10:00 ДО 22:00 </br>
+				СБ — ВС: С 10:00 ДО 19:00</p>
+			</div>
+			<div class="index-content-right">
+				<h2 class="index-content-title"></h2>
+				<p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ </br>
+				 С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ</p>
+				 <form class="form" action="" method="post">
+				 	<input type="text" name="date" value="" placeholder="Дата">
+				 	<input type="text" name="time" value="" placeholder="Время">
+				 	<input type="text" name="name" value="" placeholder="Ваше имя">
+				 	<input type="tel" name="phone" value="" placeholder="Телефон">
+				 	<button class="btn" type="submit">Отправить</button>
+				 </form>
+			</div>
+		</div>
+    </main>
+
+    <footer class="main-footer">
+    	<div class="content">
+    		<section class="contact">
+    			<p>БАРБЕРШОП «БОРОДИНСКИЙ» </br>
+				АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 </br>
+				<a href="#">КАК НАС НАЙТИ?</a>
+				ТЕЛЕФОН: +7 (495) 666-02-66</p>
+    		</section>
+    		<section class="social">
+    			<p>Давайте дружить!</p>
+    			<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+    			<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+    			<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+    		</section>
+    		<section class="copyright">
+    			<p>Разработано:</p>
+				<a class="btn" href="#">htmlacademy.ru</a>
+    		</section>
+    	</div>
+    </footer>
+</body>
+</html>
